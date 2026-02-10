@@ -15,7 +15,7 @@ jobs:
 
          - name: executing shell script
            run: |
-            chmod +X shell.sh
+            chmod +x shell.sh
             ./shell.sh
 
         #  - name: Install Cowsay Program
